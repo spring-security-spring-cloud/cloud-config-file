@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8861/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
+
+#microservices:
+#  service1:
+#    api-endpoints:
+#      uri: http://SREVICE1/api/api/first-service/get-data
